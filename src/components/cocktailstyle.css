@@ -1,0 +1,24 @@
+.CocktailHeading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.CockTailCenter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 85vw;
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: 1170px;
+  max-width: var(--fullWidth);
+  display: grid;
+  grid-row-gap: 2rem;
+  row-gap: 2rem;
+  grid-column-gap: 2rem;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+}

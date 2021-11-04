@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Nabar_Div {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  background: var(--mainWhite);
+  height: 5rem;
+  border-bottom: 2px solid #476a2e;
+  border-bottom: 2px solid var(--primaryColor);
+  box-shadow: 2px 5px 3px 0 rgb(0 0 0 / 50%);
+  box-shadow: var(--lightShadow);
+}
+.Navbar-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85vw;
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: 1170px;
+  max-width: var(--fullWidth);
+}
+a {
+  text-decoration: none;
+  color: #222;
+  color: var(--mainBlack);
+}
+.Navbar-link {
+  display: flex;
+  align-items: center;
+}
+.Navbar-link ul li {
+  margin: 10px;
+}
+.Navbar-link a {
+  text-decoration: none;
+  color: #222;
+  color: var(--mainBlack);
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.3s linear;
+  transition: var(--mainTransition);
+}

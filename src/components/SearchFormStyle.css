@@ -1,0 +1,23 @@
+.search-Div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.Search-form {
+  display: flex;
+  justify-content: center;
+  /* background-color: brown; */
+  width: 85vw;
+
+  border-radius: var(--mainBorderRadius);
+  box-shadow: 2px 5px 3px 0 rgb(0 0 0 / 50%);
+  box-shadow: var(--lightShadow);
+  max-width: var(--maxWidth);
+  background: #fff;
+  background: var(--mainWhite);
+  padding: 2rem 2.5rem;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+}
