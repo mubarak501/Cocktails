@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./pages/AppStyle.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -11,12 +11,15 @@ import SearchForm from "./components/SearchForm";
 // import components
 import Navbar from "./components/Navbar";
 import Cocktail from "../src/components/Cocktail.js";
-
+import CocktailList from "../src/components/CocktailList.js";
+import Loading from "./components/Loading";
 function App() {
+  const [pictures, setPicture] = useState(CocktailList);
   return (
     <div>
       <Navbar />
       <SearchForm />
+      <Loading />
       <Cocktail />
     </div>
   );

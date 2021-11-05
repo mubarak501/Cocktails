@@ -1,14 +1,76 @@
-import React from "react";
-import Cocktail from "./Cocktail";
-import Loading from "./Loading";
-import { useGlobalContext } from "../context";
-
-const CocktailList = () => {
-  return (
-    <div className="CocktailListSection">
-      <h2>cocktail list component</h2>
-    </div>
-  );
-};
+const CocktailList = [
+  {
+    id: 1,
+    title: "Cocktail gin",
+    category: "breakfast",
+    price: 15.99,
+    img: "https://picsum.photos/200",
+    desc: `cold-pressed `,
+  },
+  {
+    id: 2,
+    title: "Vodka",
+    category: "lunch",
+    price: 13.99,
+    img: "https://picsum.photos/201",
+    desc: `vaporware iPhone  `,
+  },
+  {
+    id: 3,
+    title: "vodka 1.0",
+    category: "shakes",
+    price: 6.99,
+    img: "https://picsum.photos/201",
+    desc: `ombucha chillwave `,
+  },
+  {
+    id: 4,
+    title: "country delight",
+    category: "breakfast",
+    price: 20.99,
+    img: "https://picsum.photos/202",
+    desc: `Shabby chic `,
+  },
+  {
+    id: 5,
+    title: "egg attack",
+    category: "lunch",
+    price: 22.99,
+    img: "https://picsum.photos/212",
+    desc: `franzen vegan  `,
+  },
+  {
+    id: 6,
+    title: "oreo dream",
+    category: "shakes",
+    price: 18.99,
+    img: "https://picsum.photos/222",
+    desc: `Portland chicharrones`,
+  },
+  {
+    id: 7,
+    title: "bacon overflow",
+    category: "breakfast",
+    price: 8.99,
+    img: "https://picsum.photos/256",
+    desc: `carry jianbing  `,
+  },
+  {
+    id: 8,
+    title: "american classic",
+    category: "lunch",
+    price: 12.99,
+    img: "https://picsum.photos/190",
+    desc: `on it `,
+  },
+  {
+    id: 9,
+    title: "american classic",
+    category: "lunch",
+    price: 12.99,
+    img: "https://picsum.photos/222",
+    desc: `lorem  `,
+  },
+];
 
 export default CocktailList;

@@ -1,0 +1,16 @@
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 10px;
+  grid-row-gap: 2rem;
+  row-gap: 2rem;
+  grid-column-gap: 2rem;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+}
+.inputsSearch {
+  position: relative;
+  bottom: 20px;
+  bottom: 33px;
+  left: 680px;
+}
