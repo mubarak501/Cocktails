@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 6rem;
+  position: relative;
 }
 .Search-form {
   display: flex;
@@ -20,4 +21,12 @@
   padding: 2rem 2.5rem;
   text-transform: capitalize;
   border-radius: 0.25rem;
+}
+.search-lable {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  color: #476a2e;
+  color: var(--primaryColor);
 }

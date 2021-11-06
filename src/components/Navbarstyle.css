@@ -34,10 +34,8 @@ a {
   display: flex;
   align-items: center;
 }
-.Navbar-link ul li {
-  margin: 10px;
-}
-.Navbar-link a {
+
+.Navbar-link button {
   text-decoration: none;
   color: #222;
   color: var(--mainBlack);

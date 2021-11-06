@@ -1,0 +1,13 @@
+.About-Div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+.about-details {
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  height: 40vh;
+}
