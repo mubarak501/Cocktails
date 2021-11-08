@@ -4,8 +4,10 @@
   flex-direction: column;
   text-align: center;
   margin: 10px;
+  align-items: center;
 }
 .about-details {
+  width: 500px;
   padding: 20px;
   text-align: center;
   align-items: center;

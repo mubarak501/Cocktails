@@ -30,21 +30,5 @@
   margin: 10px;
 }
 #Detials-btn {
-  padding: 0.25rem 0.4rem;
-  color: #fff;
-  color: var(--mainWhite);
-  border-color: transparent;
-
   background: #476a2e;
-  background: var(--primaryColor);
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
-  letter-spacing: var(--mainSpacing);
-
-  cursor: pointer;
-  font-size: 0.8rem;
-
-  border-radius: 0.25rem;
-  border-radius: var(--mainBorderRadius);
-  display: inline-block;
 }

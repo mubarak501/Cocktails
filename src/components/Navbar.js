@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Button from "@material-ui/core/Button";
 import "./Navbarstyle.css";
 
 const Navbar = (props) => {
@@ -15,7 +15,9 @@ const Navbar = (props) => {
         </a>
         <ul className="Navbar-link">
           <li>
-            <button
+            <Button
+              variant="contained"
+              color="primary"
               id="homeBtn"
               onClick={(e) => {
                 e.stopPropagation();
@@ -23,17 +25,19 @@ const Navbar = (props) => {
               }}
             >
               Home
-            </button>
+            </Button>
           </li>
           <li>
-            <button
+            <Button
+              variant="contained"
+              color="primary"
               onClick={(e) => {
                 e.stopPropagation();
                 props.setChnagePage("about");
               }}
             >
               About
-            </button>
+            </Button>
           </li>
         </ul>
       </div>

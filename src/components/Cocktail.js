@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cocktailstyle.css";
-
+import Button from "@material-ui/core/Button";
 const Cocktail = (props) => {
   const { onDetailClick } = props;
+  console.log(onDetailClick);
+
   return (
     <div className="CockTailCenter">
       <div className="content-container">
@@ -15,9 +17,15 @@ const Cocktail = (props) => {
           <h2>{props.description}</h2>
         </div>
         <div className="Detials-Div">
-          <button onClick={onDetailClick} id="Detials-btn">
+          <Button
+            variant="contained"
+            color="primary"
+            id="homeBtn"
+            onClick={onDetailClick}
+            id="Detials-btn"
+          >
             Details
-          </button>
+          </Button>
         </div>
       </div>
     </div>

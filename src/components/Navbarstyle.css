@@ -36,17 +36,5 @@ a {
 }
 
 .Navbar-link button {
-  text-decoration: none;
-  color: #222;
-  color: var(--mainBlack);
-  text-transform: capitalize;
-  display: inline-block;
-  font-weight: 700;
   margin-right: 0.5rem;
-  font-weight: 400;
-  letter-spacing: 2px;
-  font-size: 1.2rem;
-  padding: 0.25rem 0.5rem;
-  transition: all 0.3s linear;
-  transition: var(--mainTransition);
 }

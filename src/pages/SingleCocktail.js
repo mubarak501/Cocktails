@@ -5,9 +5,10 @@ import { useParams, Link } from "react-router-dom";
 const url = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=";
 
 const SingleCocktail = ({ data }) => {
+  console.log("fasd", data);
   return (
     <div>
-      <Cocktail />
+      <Cocktail title={data.title} Imgesss={data.img} description={data.desc} />
     </div>
   );
 };
