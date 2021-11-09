@@ -71,6 +71,30 @@ const CocktailList = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Smirnoff_Red_Label_8213.jpg/1200px-Smirnoff_Red_Label_8213.jpg",
     desc: `lorem  `,
   },
+  {
+    id: 10,
+    title: "american classic",
+    category: "lunch",
+    price: 12.99,
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Smirnoff_Red_Label_8213.jpg/1200px-Smirnoff_Red_Label_8213.jpg",
+    desc: `lorem  `,
+  },
+  {
+    id: 11,
+    title: "american classic",
+    category: "lunch",
+    price: 12.99,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC3oIdCT8YCOA-vPF5wDb4QYa4ySq076PpXw&usqp=CAU",
+    desc: `lorem  `,
+  },
+  {
+    id: 12,
+    title: "american classic",
+    category: "lunch",
+    price: 12.99,
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Smirnoff_Red_Label_8213.jpg/1200px-Smirnoff_Red_Label_8213.jpg",
+    desc: `lorem  `,
+  },
 ];
 
 export default CocktailList;

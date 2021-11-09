@@ -13,3 +13,9 @@
   align-items: center;
   height: 40vh;
 }
+@media (max-width: 500px) {
+  .about-details {
+    width: auto;
+    height: auto;
+  }
+}

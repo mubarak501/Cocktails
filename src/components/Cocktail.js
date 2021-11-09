@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import "./cocktailstyle.css";
 import Button from "@material-ui/core/Button";
 const Cocktail = (props) => {
@@ -10,7 +10,7 @@ const Cocktail = (props) => {
     <div className="CockTailCenter">
       <div className="content-container">
         <div className="image-container">
-          <img className="imagesss" src={props.Imgesss} />
+          <img className="imagesss" src={props.Imgesss} alt="images" />
         </div>
         <div className="Cocktail-description">
           <h3>{props.title}</h3>
@@ -22,7 +22,6 @@ const Cocktail = (props) => {
             color="primary"
             id="homeBtn"
             onClick={onDetailClick}
-            id="Detials-btn"
           >
             Details
           </Button>

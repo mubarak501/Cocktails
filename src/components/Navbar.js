@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "@material-ui/core/Button";
 import "./Navbarstyle.css";
 
@@ -6,13 +6,14 @@ const Navbar = (props) => {
   return (
     <div className="Nabar_Div">
       <div className="Navbar-center">
-        <a>
+        <h1>
           <img
+            alt="logoo"
+            className="logo"
             src="https://react-projects-15-cocktails.netlify.app/static/media/logo.9a3d2645.svg
 "
-            className="logo"
           />
-        </a>
+        </h1>
         <ul className="Navbar-link">
           <li>
             <Button
