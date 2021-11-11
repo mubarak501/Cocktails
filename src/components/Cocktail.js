@@ -21,6 +21,7 @@ const Cocktail = (props) => {
             variant="contained"
             color="primary"
             id="homeBtn"
+            className="detail-btn"
             onClick={onDetailClick}
           >
             Details

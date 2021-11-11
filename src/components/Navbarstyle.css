@@ -15,6 +15,9 @@
   box-shadow: 2px 5px 3px 0 rgb(0 0 0 / 50%);
   box-shadow: var(--lightShadow);
 }
+#aboutBtn {
+  background-color: #476a2e;
+}
 .Navbar-center {
   display: flex;
   align-items: center;

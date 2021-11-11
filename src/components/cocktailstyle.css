@@ -29,6 +29,9 @@
   display: flex;
   margin: 10px;
 }
-#Detials-btn {
+#homeBtn {
+  background: #476a2e;
+}
+.detail-btn {
   background: #476a2e;
 }

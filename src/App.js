@@ -16,6 +16,7 @@ function App() {
   return (
     <div>
       <Navbar setChnagePage={setChnagePage} />
+
       {changeCompo === "home" ? (
         <>
           <SearchForm />

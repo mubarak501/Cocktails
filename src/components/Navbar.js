@@ -30,6 +30,7 @@ const Navbar = (props) => {
           </li>
           <li>
             <Button
+              id="aboutBtn"
               variant="contained"
               color="primary"
               onClick={(e) => {
